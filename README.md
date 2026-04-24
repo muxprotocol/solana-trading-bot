@@ -1,4 +1,4 @@
-# Warp Solana Bot
+# Solana Trading Bot
 
 An automated **Solana sniping bot** that trades newly-listed tokens on **Raydium AMM v4** and **pump.fun** bonding curves. Listens to on-chain events in real time, applies configurable safety filters, buys with your chosen quote token (WSOL / USDC), and auto-sells on take-profit / stop-loss.
 
@@ -68,7 +68,7 @@ Key modules:
 ## Install
 
 ```bash
-git clone <this-repo>
+git clone https://github.com/muxprotocol/solana-trading-bot.git
 cd solana-trading-bot-master
 npm install
 cp .env.copy .env
